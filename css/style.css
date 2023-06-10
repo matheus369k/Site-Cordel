@@ -1,0 +1,69 @@
+body{
+    background-attachment: fixed;
+    background-image: linear-gradient(to top, rgb(4, 63, 4), rgb(10, 128, 10), rgba(17, 236, 17, 0.781));
+    padding: 0px;
+    margin: auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Lobster&display=swap');
+
+header{
+    min-width: 800px;
+    margin: auto;
+    max-width: 800px;
+    text-align: center;
+    padding: 50px;
+    color: white;
+    background-color: black;
+}
+
+header > h1{
+    font-family: 'Lilita One', cursive;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+header > p > a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(255, 251, 251);
+}
+
+main{
+    min-width: 895px;
+    background-color: white ;
+    border: 5px solid;
+    max-width: 895px;
+    margin: auto;
+    
+}
+
+div > p,
+main > p{
+    margin: 90px 20px 0px 20px;
+    max-width: 50%;
+    font-size: 2.3em;
+    font-family: 'Lobster', cursive;
+    line-height: 80px;
+    text-align: justify;
+}
+
+div > p{
+    padding-left: 20px;
+    margin: 0px 0px 80px 0px;
+    color: white ;
+    background-color: rgba(0, 0, 0, 0.37);
+}
+
+.imagem-1{
+    width: 100%;
+    padding: 100px 0px;
+    background-image: url(../imagens/background001.jpg);
+}
+
+.imagem-2{
+    width: 100%;
+    padding: 100px 0px;
+    background-image: url(../imagens/background002.jpg);
+}
