@@ -10,7 +10,7 @@ body{
 header{
     box-shadow: 3px 4px 3px 5px rgba(0, 0, 0, 0.37);
     font-size: 22px;
-    min-width: 319px;
+    min-width: 314px;
     margin: auto;
     max-width: 800px;
     text-align: center;
@@ -35,7 +35,7 @@ header > p > a{
 
 main{
     box-shadow: 3px 4px 3px 5px rgba(0, 0, 0, 0.37);
-    min-width: 410px;
+    min-width: 406px;
     background-color: white ;
     border: 5px solid;
     max-width: 895px;
