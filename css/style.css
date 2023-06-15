@@ -45,7 +45,7 @@ main{
 }
 
 main > p{
-    margin: 10vh 0;
+    margin: 2vh 0;
 }
 
 div > p,
@@ -60,8 +60,8 @@ main > p{
 div > p{
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.527);
     width: fit-content;
-    padding: 5vh 5vw;
-    margin: 15vh 0vh;
+    padding: 2vh 2vw;
+    margin: 6vh 0vh;
     color: rgb(241, 234, 234) ;
     background-color: rgba(0, 0, 0, 0.459);
 }
