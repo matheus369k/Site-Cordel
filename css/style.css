@@ -45,37 +45,37 @@ main{
 }
 
 main > p{
-    margin: 2vh 0;
+    margin: 5vh 0;
+    padding-left:5vw;
 }
 
 div > p,
 main > p{
     font-size: 4vw;
-    padding-left:5vw;
     font-family: 'Lobster', cursive;
-    line-height: 10vw;
+    line-height: 9vw;
     text-align: justify;
 }
 
 div > p{
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.527);
     width: fit-content;
-    padding: 2vh 2vw;
-    margin: 6vh 0vh;
+    padding: 2vh 2vw 2vh 2vw;
+    margin: 3vh 0vh;
     color: rgb(241, 234, 234) ;
     background-color: rgba(0, 0, 0, 0.459);
 }
 
 .imagem-1{
     box-shadow: inset 6px 6px 25px 0px rgba(0, 0, 0, 0.603);
-    padding: 0.5vh 0;
+    padding: 5vh 3vw;
     background: url('../imagens/background001.jpg')  center center fixed;
     background-size: cover;
 }
 
 .imagem-2{
     box-shadow: inset 6px 6px 25px 0px rgba(0, 0, 0, 0.603);
-    padding: 0.5vh;
+    padding: 5vh 3vw;
     background: url('../imagens/background002.jpg') center center fixed;
     background-size: cover;
 }
