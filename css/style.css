@@ -42,6 +42,7 @@ main {
     background-image: linear-gradient(to top, white, rgb(235, 234, 234), rgb(233, 233, 233));
 }
 
+<<<<<<< HEAD
 @media screen and ( min-width:768px) {
     main {
         display: grid;
@@ -55,6 +56,10 @@ main {
 main p {
     margin: 5vh 0;
     padding-left:5vw;
+=======
+main > p{
+    margin: 2vh 0;
+>>>>>>> parent of b9c6147 (Update style.css)
 }
 
 @media screen and ( min-width: 768px) {
@@ -69,8 +74,9 @@ main p {
 div  p,
 main  p {
     font-size: 4vw;
+    padding-left:5vw;
     font-family: 'Lobster', cursive;
-    line-height: 9vw;
+    line-height: 10vw;
     text-align: justify;
 }
 
@@ -93,8 +99,8 @@ main  p {
 div p {
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.527);
     width: fit-content;
-    padding: 2vh 2vw 2vh 2vw;
-    margin: 3vh 0vh;
+    padding: 2vh 2vw;
+    margin: 6vh 0vh;
     color: rgb(241, 234, 234) ;
     background-color: rgba(0, 0, 0, 0.459);
 }
@@ -125,14 +131,14 @@ div p {
 
 .imagem-1 {
     box-shadow: inset 6px 6px 25px 0px rgba(0, 0, 0, 0.603);
-    padding: 5vh 3vw;
+    padding: 0.5vh 0;
     background: url('../imagens/background001.jpg')  center center fixed;
     background-size: cover;
 }
 
 .imagem-2 {
     box-shadow: inset 6px 6px 25px 0px rgba(0, 0, 0, 0.603);
-    padding: 5vh 3vw;
+    padding: 0.5vh;
     background: url('../imagens/background002.jpg') center center fixed;
     background-size: cover;
 }
