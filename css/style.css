@@ -41,34 +41,10 @@ main {
     background-attachment: fixed;
     background-image: linear-gradient(to top, white, rgb(235, 234, 234), rgb(233, 233, 233));
 }
-
-<<<<<<< HEAD
-@media screen and ( min-width:768px) {
-    main {
-        display: grid;
-        grid-template-columns: 50%;
-        grid-auto-rows: 80vh;
-     }
-     
- }
-
 .img p,
 main p {
     margin: 5vh 0;
     padding-left:5vw;
-=======
-main > p{
-    margin: 2vh 0;
->>>>>>> parent of b9c6147 (Update style.css)
-}
-
-@media screen and ( min-width: 768px) {
-    .img p,
-    main {
-        padding-top: 0;
-        padding-bottom: 0;
-        padding-left: 0;
-    }
 }
 
 div  p,
@@ -80,21 +56,6 @@ main  p {
     text-align: justify;
 }
 
-@media screen and ( min-width: 768px) {
-    .img p,
-    div  p,
-    main  p {
-        letter-spacing: 2px;
-        font-size: 1.8em;
-        line-height: normal;
-        text-align: left;
-        padding-left: 25px ;
-        width:auto;
-        height: 95%;
-        display: flex;
-        align-items: center;
-    }
-}
 
 div p {
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.527);
@@ -105,14 +66,6 @@ div p {
     background-color: rgba(0, 0, 0, 0.459);
 }
 
-@media screen and ( min-width: 768px) {
-    .img p,
-    div p {
-        width: auto;
-        margin: 0;
-        background-color: rgba(0, 0, 0, 0.202);
-    }
-}
 
 .img p{
     background-color: transparent;
@@ -120,14 +73,6 @@ div p {
     text-shadow: none;
 }
 
-@media screen and ( min-width: 768px) {
-    .img p{
-        text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.527);
-        color: rgb(241, 234, 234) ;
-        background-color: rgba(0, 0, 0, 0.459);
-        height: 80vh;
-    }
-}
 
 .imagem-1 {
     box-shadow: inset 6px 6px 25px 0px rgba(0, 0, 0, 0.603);
@@ -141,39 +86,6 @@ div p {
     padding: 0.5vh;
     background: url('../imagens/background002.jpg') center center fixed;
     background-size: cover;
-}
-
-@media screen and ( min-width: 768px) {
-    .imagem-1{
-        grid-row-start: 1;
-        grid-column-start: 2;
-        padding: 0;
-    }
-
-    .imagem-2{
-        grid-row-start: 2;
-        grid-column-start: 1;
-        padding: 0;
-    }
-
-    .imagem-3{
-        grid-row-start: 3;
-        grid-column-start: 2;
-        padding: 0;
-        background: url('../imagens/background001.jpg')  center center fixed;
-        background-size: cover;
-        box-shadow: inset 6px 6px 25px 0px rgba(0, 0, 0, 0.603);
-    }
-
-    .imagem-4{
-        grid-row-start: 4;
-        grid-column-start: 1;
-        padding: 0;
-        background: url('../imagens/background002.jpg')  center center fixed;
-        background-size: cover;
-        box-shadow: inset 6px 6px 25px 0px rgba(0, 0, 0, 0.603);
-    }
-
 }
 
 footer {
