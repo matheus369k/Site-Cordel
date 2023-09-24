@@ -55,11 +55,13 @@ main {
      
 }
 
-li p {
-    padding-left:10px;
+li {
+    
+    margin-bottom: 40px;
 }
 
 li p {
+    padding-left:10px;
     font-size: 4vw;
     font-family: 'Lobster', cursive;
     line-height: 9vw;
@@ -82,6 +84,7 @@ li p {
     }
 }
 
+.imagem-3
 .imagem-1,
 .imagem-2 {
     box-shadow: inset 6px 6px 25px 0px rgba(0, 0, 0, 0.603);
@@ -99,15 +102,11 @@ li p {
     background-size: cover;
 }
 
-@media screen and ( min-width: 768px ) {
-    .imagem-3 {
-        box-shadow: inset 6px 6px 25px 0px rgba(0, 0, 0, 0.603);
-        padding: 5vh 0;
-        background: url('../imagens/background001.jpg')  center center fixed;
-        background-size: cover;
-        color: white;
-    }
+.imagem-3 {
+    background: url('../imagens/background001.jpg')  center center fixed;
+    background-size: cover;
 }
+
 
 footer {
     box-shadow: 4px -4px 9px 5px rgba(0, 0, 0, 0.384);
