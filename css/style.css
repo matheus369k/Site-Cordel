@@ -1,30 +1,33 @@
 * {
     margin: 0;
     padding:0;
-    box-sizing: 0;
+    box-sizing: border-box;
+    list-style: none;
 }
 
 body {
-    background-image: linear-gradient(to top, rgb(4, 63, 4), rgb(10, 128, 10), rgba(17, 236, 17, 0.781));
+    height: 100vh;
+    background-image: linear-gradient(rgb(4, 63, 4), rgb(10, 128, 10), rgba(17, 236, 17, 0.781));
+    background-attachment: fixed;
 }
 
 header {
-    font-size: 22px;
+    font-size: 16px;
     text-align: center;
-    padding: 50px 0px;
+    padding: 30px 0px;
     color: white;
     background-color: black;
 }
 
 h1 {
     font-family: 'Lilita One', cursive;
-    font-size: 3em;
+    font-size: 2em;
     text-transform: uppercase;
     font-weight: bolder;
 }
 
 header a {
-    font-size: 22px;
+    font-size: 16px;
     font-weight: bolder;
     text-decoration: none;
     color: rgb(255, 251, 251);
@@ -37,37 +40,26 @@ header a:hover {
 }
 
 main {
-    padding: 10vh 0;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.22);
+    padding: 20px 0;
     background-attachment: fixed;
-    background-image: linear-gradient(to top, white, rgb(235, 234, 234), rgb(233, 233, 233));
+    background-image: linear-gradient(white, rgb(211, 211, 211), rgb(189, 189, 189));
 }
 
 @media screen and ( min-width:768px) {
     main {
-        display: grid;
-        grid-template-columns: 50%;
-        grid-auto-rows: 80vh;
+        display: block;
+        margin: 0 auto;
+        max-width: 50%;
      }
      
- }
-
-.img p,
-main p {
-    margin: 5vh 0;
-    padding-left:5vw;
 }
 
-@media screen and ( min-width: 768px) {
-    .img p,
-    main {
-        padding-top: 0;
-        padding-bottom: 0;
-        padding-left: 0;
-    }
+li p {
+    padding-left:10px;
 }
 
-div  p,
-main  p {
+li p {
     font-size: 4vw;
     font-family: 'Lobster', cursive;
     line-height: 9vw;
@@ -75,107 +67,54 @@ main  p {
 }
 
 @media screen and ( min-width: 768px) {
-    .img p,
-    div  p,
-    main  p {
+    li p {
         letter-spacing: 2px;
-        font-size: 1.8em;
+        font-size: 1em;
         line-height: normal;
         text-align: left;
         padding-left: 25px ;
         width:auto;
         height: 95%;
         display: flex;
+        padding-top: 50px;
+        padding-bottom: 50px;
         align-items: center;
     }
 }
 
-div p {
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.527);
-    width: fit-content;
-    padding: 2vh 2vw 2vh 2vw;
-    margin: 3vh 0vh;
-    color: rgb(241, 234, 234) ;
-    background-color: rgba(0, 0, 0, 0.459);
-}
-
-@media screen and ( min-width: 768px) {
-    .img p,
-    div p {
-        width: auto;
-        margin: 0;
-        background-color: rgba(0, 0, 0, 0.202);
-    }
-}
-
-.img p{
-    background-color: transparent;
-    color: black;
-    text-shadow: none;
-}
-
-@media screen and ( min-width: 768px) {
-    .img p{
-        text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.527);
-        color: rgb(241, 234, 234) ;
-        background-color: rgba(0, 0, 0, 0.459);
-        height: 80vh;
-    }
+.imagem-1,
+.imagem-2 {
+    box-shadow: inset 6px 6px 25px 0px rgba(0, 0, 0, 0.603);
+    padding: 5vh 0;
+    color: white;
 }
 
 .imagem-1 {
-    box-shadow: inset 6px 6px 25px 0px rgba(0, 0, 0, 0.603);
-    padding: 5vh 3vw;
-    background: url('../imagens/background001.jpg')  center center fixed;
+    background: url('../imagens/background001.jpg') center center fixed;
     background-size: cover;
 }
 
 .imagem-2 {
-    box-shadow: inset 6px 6px 25px 0px rgba(0, 0, 0, 0.603);
-    padding: 5vh 3vw;
-    background: url('../imagens/background002.jpg') center center fixed;
+    background: url('../imagens/background002.jpg')center center fixed;
     background-size: cover;
 }
 
-@media screen and ( min-width: 768px) {
-    .imagem-1{
-        grid-row-start: 1;
-        grid-column-start: 2;
-        padding: 0;
-    }
-
-    .imagem-2{
-        grid-row-start: 2;
-        grid-column-start: 1;
-        padding: 0;
-    }
-
-    .imagem-3{
-        grid-row-start: 3;
-        grid-column-start: 2;
-        padding: 0;
+@media screen and ( min-width: 768px ) {
+    .imagem-3 {
+        box-shadow: inset 6px 6px 25px 0px rgba(0, 0, 0, 0.603);
+        padding: 5vh 0;
         background: url('../imagens/background001.jpg')  center center fixed;
         background-size: cover;
-        box-shadow: inset 6px 6px 25px 0px rgba(0, 0, 0, 0.603);
+        color: white;
     }
-
-    .imagem-4{
-        grid-row-start: 4;
-        grid-column-start: 1;
-        padding: 0;
-        background: url('../imagens/background002.jpg')  center center fixed;
-        background-size: cover;
-        box-shadow: inset 6px 6px 25px 0px rgba(0, 0, 0, 0.603);
-    }
-
 }
 
 footer {
     box-shadow: 4px -4px 9px 5px rgba(0, 0, 0, 0.384);
-    font-size: 1.2em;
+    font-size: 1em;
     text-align: center;
     color:white ;
-    padding: 30px 0px;
+    padding: 10px 0px;
     background-color: black;
 }
 
