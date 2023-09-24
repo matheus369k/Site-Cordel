@@ -1,8 +1,8 @@
 # 💻Site Cordel
 <div align="center">
-  
-![Peek 19-08-2023 16-01](https://github.com/matheus369k/Site-Cordel/assets/47065962/d0b56995-ab53-4913-b72c-4a38983b9fdc)</div>
-__*Nota*__: *Esse projeto foi proposto em uma aula de html e css postada em um video do [CursoemVideo](https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ).*
+
+![76555](https://github.com/matheus369k/Site-Cordel/assets/47065962/fff8a9dc-b2d9-4506-b180-c6fd6402627f)</div>
+__*Nota*__: *Esse projeto foi proposto em uma aula de html e css postada em um video do [CursoemVideo](https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ), sendo um projeto extremamente simples, contudo sendo um "ponta pe" inicial para o mundo da progamação.*
 
 ## 🚀Começando
 
@@ -12,15 +12,14 @@ __*Nota*__: *Esse projeto foi proposto em uma aula de html e css postada em um v
 
 ### 🧰Codigo
 #### __*CSS*__
-Foi usado uma medida adaptavel para manter o texto mais adequado ao tamanho da tela, sendo ela __*vw*__, veja a imagem abaixo com o codigo detalhado...
+Para criar o efeito de imovel em relação a pagina, foi utilizado o ```background:fixed;``` veja o codigo abaixo👇...
+<div align="center">
+
+![34434](https://github.com/matheus369k/Site-Cordel/assets/47065962/9bec1507-7f0b-4d74-b334-5f5730a68170)</div>
+Para criar uma adaptação no css so sendo ativando quando as mediadas da tela forem correspodents foi utilizado ```@media screen (min-width:768px) {}``` para so usar os css dentro dele quando a tela for maior que 768px a imagem abaixo e de aparelheros menores que 768px👇..."
 <div align="center">
   
-![2023-08-19-162609_1024x600_scrot](https://github.com/matheus369k/Site-Cordel/assets/47065962/6700160f-ae98-4763-998f-74f5b116846e)</div>
-Para criar o efeito de "buraco" na pagina com imagens no fundo, foi utilizado o ```background:fixed;```...
-veja o codigo abaixo👇...
-<div align="center">
-  
-![2023-08-19-162557_1024x600_scrot](https://github.com/matheus369k/Site-Cordel/assets/47065962/9be938e6-f9ce-44c2-8a6f-2455503745c3)</div>
+![86688](https://github.com/matheus369k/Site-Cordel/assets/47065962/20ab6499-6d59-4143-9726-8b32298f356f)</div>
 ### 📃Licença
-Nao foi adicionado uma licença.
+Nao foi adicionado uma licença a esse projeto.
 
